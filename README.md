@@ -28,3 +28,8 @@ let names ="vicky"
 The variable environment helps JavaScript know which variables are available and what values they hold at any given point while the code is executing.
 
 - Hoisting in JavaScript is a behavior where variable and function declarations are moved to the top of their scope during the execution phase, even before the code is actually executed. This means that you can use variables and functions before they are declared in the code, though how they behave depends on whether they're declared with var, let, const, or as functions.
+- Summary:
+Hoisting moves variable and function declarations to the top of their scope before code execution.
+Variables declared with var are hoisted and initialized with undefined.
+Variables declared with let and const are hoisted but not initialized (resulting in errors if accessed too early).
+Function declarations are fully hoisted, meaning you can call the function before its declaration in the code.
