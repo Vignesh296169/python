@@ -33,3 +33,6 @@ Hoisting moves variable and function declarations to the top of their scope befo
 Variables declared with var are hoisted and initialized with undefined.
 Variables declared with let and const are hoisted but not initialized (resulting in errors if accessed too early).
 Function declarations are fully hoisted, meaning you can call the function before its declaration in the code.
+- execution context
+  In JavaScript, the thread of execution refers to the single thread that the JavaScript engine uses to run code. JavaScript is single-threaded, meaning it executes one piece of code at a time in a sequential manner. This is known as synchronous execution.
+  - In JavaScript, AJAX stands for Asynchronous JavaScript and XML. 
