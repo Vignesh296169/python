@@ -9,19 +9,19 @@
    Where you're standing in the kitchen (this is the value of this in JavaScript, which tells you where you are).
   When you cook (execute code), you first gather all your ingredients and tools (this is like JavaScript setting up your variables and functions).
   Lifecycle of Execution Context:
- Creation Phase:
+- Creation Phase:
  Memory is allocated for variables and functions.
  Variables declared with var are initialized with undefined, while let and const remain uninitialized.
  Functions are stored as a reference in memory.
- Execution Phase:
+ - Execution Phase:
  JavaScript engine executes the code line by line.
  Variables are assigned actual values, and function calls are made.
-How It Works:
+- How It Works:
 When JavaScript starts running your code, it first goes through a setup phase where it:
 
 Finds all the variable declarations (var, let, and const) and functions.
 Reserves space for them in memory before actually running your code.
-important below ----
+- important below ----
 var variables are initialized with undefined first and later assigned values when the code runs. This is why var can be accessed even before it’s declared (hoisting).
 console.log(names)
 let names ="vicky"
