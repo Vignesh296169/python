@@ -35,4 +35,8 @@ Variables declared with let and const are hoisted but not initialized (resulting
 Function declarations are fully hoisted, meaning you can call the function before its declaration in the code.
 - execution context
   In JavaScript, the thread of execution refers to the single thread that the JavaScript engine uses to run code. JavaScript is single-threaded, meaning it executes one piece of code at a time in a sequential manner. This is known as synchronous execution.
-  - In JavaScript, AJAX stands for Asynchronous JavaScript and XML. 
+  - In JavaScript, AJAX stands for Asynchronous JavaScript and XML.
+  - when code encouter the return keywoard that means we are telling go back where your invocation ;
+* Execution context deletion
+  - Each function call creates a new execution context.
+After the function finishes execution, the context is deleted unless there are closures or references that keep it in memory.
